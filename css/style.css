@@ -1,0 +1,23 @@
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Jura', sans-serif;
+}
+/*navigation bar*/
+.sticky-top{
+    position:fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+.card {
+    margin: 0 auto;
+}
