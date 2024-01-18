@@ -10,12 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <!-- for icons -->
+    <script src="https://kit.fontawesome.com/d650a88b4d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Nav bar section -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary sticky-top ">
+        <div class=" bg-dark container-fluid">
             <a class="navbar-brand" href="#">Jessica's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,15 +42,21 @@
         </div>
     </nav>
     <!-- Jumbotron Code -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container-fluid py-5">
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 Jumbotron">
+        <div class="container-fluid py-5 ">
             <h1 class="display-5 fw-bold">Welcome to my portfolio!</h1>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
-                previous
-                versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+            <p class="col-md-8 fs-4">
+                Hi, 🙋‍♀️ I'm Jess and I am passionate about engineering and web development. As an engineer, I find
+                fulfillment in turning innovative ideas into pratical solutions that have a positive impact
+                on the world. My expertise spans medical imaging, coding and machiene learning, and I'm well-versed
+                in the latest technologies and tools in the field. I'm constantly seeking oppertunities to stay at the
+                forefront of engineering advancements.
+
             </p>
             <button class="btn btn-primary btn-lg" type="button">Example button</button>
         </div>
+
     </div>
 
     <!-- About Me section-->
@@ -64,7 +72,8 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../Bootstrap-portfolio/images/02-portfolio-4.jpg" class="d-block w-75 carouselimage" alt="...">
+                <img src="../Bootstrap-portfolio/images/02-portfolio-4.jpg" class="d-block w-75 carouselimage"
+                    alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Who Am I?</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -176,10 +185,51 @@
     </div>
     <!-- End content -->
     <!-- Footer -->
-    <footer id="contact">
-        <h1>Contact Me</h1>
-        <p> Facebook Twitter LinkedIn</p>
-    </footer>
+    
+    <div class="container my-5">
+
+        <footer class="bg-dark text-center text-white" id="contact">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
     <!-- End footer -->
     <!-- bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

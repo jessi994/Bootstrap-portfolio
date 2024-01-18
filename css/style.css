@@ -11,9 +11,10 @@ h6 {
 p {
     font-family: 'Jura', sans-serif;
 }
+
 /*navigation bar*/
-.sticky-top{
-    position:fixed;
+.sticky-top {
+    position: fixed;
     top: 0;
     z-index: 1030;
 }
@@ -21,31 +22,33 @@ p {
 .card {
     margin: 0 auto;
 }
- 
 
+.Jumbotron {
+    background-image: url("../images/background1.jpeg"); 
+    background-size: cover;
+   
+    /* background-position: center; */
+}
 
-.carousel-inner, .carousel-item{
-    
+.fw-bold {
+    color:bisque;
+    margin-bottom: 20px;
+}
+
+.fs-4{
+    color:bisque;
+}
+.carousel-inner,
+.carousel-item .carousel-indicators {
+
+    /* object-fit:cover; */
+    display: flex;
     object-fit:cover;
-    display: flex;
 
-   
+
+
 
 }
-/* 
-.carousel-indicators{
-    display: flex;
-    padding: 20px;
-    margin-left: 20px;
-   
-   
-}   */
-/* margin:auto; Evernly space out image, top, right, left and right */
-.carouselimage{
-    margin:auto;
-    height: 400px;
-}
-
 .carousel-control-prev{
     justify-content: flex-end !important;
     width:17% !important;
@@ -54,4 +57,8 @@ p {
 .carousel-control-next{
     justify-content: flex-start !important;
     width:17% !important;
+}
+.carouselimage{
+    margin:auto;
+    height: 400px;
 }
