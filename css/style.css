@@ -21,3 +21,37 @@ p {
 .card {
     margin: 0 auto;
 }
+ 
+
+
+.carousel-inner, .carousel-item{
+    
+    object-fit:cover;
+    display: flex;
+
+   
+
+}
+/* 
+.carousel-indicators{
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+   
+   
+}   */
+/* margin:auto; Evernly space out image, top, right, left and right */
+.carouselimage{
+    margin:auto;
+    height: 400px;
+}
+
+.carousel-control-prev{
+    justify-content: flex-end !important;
+    width:17% !important;
+}
+
+.carousel-control-next{
+    justify-content: flex-start !important;
+    width:17% !important;
+}
