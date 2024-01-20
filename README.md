@@ -59,7 +59,7 @@ This project is a website to show my portfolio of work. The project was built to
 ![Screenshot of Jessica's Bootstrap-portfolio mobile view](images/mobile-view.png)
 
 ### Link to deployed application
-Access the live application [here](https://jessi994.github.io/jess-portfolio/)
+Access the live application [here](https://jessi994.github.io/Bootstrap-portfolio/)
 
 
 ### Credits
