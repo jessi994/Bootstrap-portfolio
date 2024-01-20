@@ -17,12 +17,16 @@ p {
     font-family: 'Jura', sans-serif;
 }
 
-h1,
+
 h3,
 h4,
 h2 {
-    color: whitesmoke !important;
+    color: beige !important;
     margin: 20px !important;
+}
+
+h1{
+    color: bisque !important;
 }
 
 /*navigation bar*/
@@ -32,6 +36,19 @@ h2 {
     z-index: 1030;
 }
 
+.navbar{
+    padding: 0px !important;
+}
+
+.img9 {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border: 1px;
+    border-radius: 50px;
+   
+  
+  }
 .card {
     margin: 0 auto;
 }
