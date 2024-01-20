@@ -35,8 +35,9 @@ h3 {
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
     width: 200px;
+    margin-right: 5px;
 }
 
 .Jumbotron {
