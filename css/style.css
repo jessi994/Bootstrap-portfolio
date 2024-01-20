@@ -18,7 +18,9 @@ p {
 }
 
 h1,
-h3, h4 {
+h3,
+h4,
+h2 {
     color: whitesmoke !important;
     margin: 20px !important;
 }
@@ -80,18 +82,35 @@ h3, h4 {
 
 .carouselimage {
     margin: auto;
-    height: 400px;
+    height: 500px;
 }
 
-/* .card-img-top{
-    max-height : 50%;
-} */
+.dark-img{
+    filter: brightness(30%);
+}
 
 .card-body {
     color: whitesmoke !important;
 }
 
-.card{
+.card {
     margin: 10px;
     height: 740px !important;
+}
+
+.btn1 {
+    color: white !important;
+    opacity: 0.5;
+    
+}
+
+.btn1:hover{
+    cursor: pointer;
+    font-size: 120%;
+    opacity: 0.8;
+}
+
+.btn1:active{
+    opacity: 0.5;
+    
 }
