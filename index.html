@@ -14,11 +14,12 @@
     <script src="https://kit.fontawesome.com/d650a88b4d.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
     <!-- Nav bar section -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary sticky-top ">
         <div class=" bg-dark container-fluid">
             <a class="navbar-brand" href="#">Jessica's Portfolio</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,16 +30,18 @@
                         <a class="nav-link" href="#about me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#work">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Work Projects</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </div>
+            <img class="logo" src="../Bootstrap-portfolio/images/logo2-removebg-preview.png" alt="...">
         </div>
     </nav>
     <!-- Jumbotron Code -->
@@ -54,7 +57,6 @@
                 forefront of engineering advancements.
 
             </p>
-            <button class="btn btn-primary btn-lg" type="button">Example button</button>
         </div>
 
     </div>
@@ -109,19 +111,25 @@
 
     <!-- My work section/look at last week examples to see if you showuld add a main tag -->
     <!-- Cards -->
-    <div class="container-fluid" id="skills">
-        <h1 class="sectionHeading"> My Skills </h1>
+    <div class="container-fluid" id="work">
+        <h1 class="sectionHeading"> My projects </h1>
         <div class="row" class="showsNear">
             <!-- Card 1 -->
             <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="card">
-                    <img src="images/python9.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">MATLAB</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" >
+                    <img src="images/watchlist.png" class="card-img-top" alt="Movie Tracker watchList page">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title">Movie Tracker</h5>
+                        <p class="card-text"> An application for movie fanatics.
+                            Search for information about an actor or a movie.
+                            The homepage shows the user the current most popular movies.
+                            To add a movie to the watchlist click the eye icon and click the watchlist button to view
+                            your current watchlist. Once
+                            a movie in the watchlist has been watched, the user simply clicks the eye icon again to
+                            remove
+                            the movie from the watchlist. Click on the movie poster for more information.
+                        </p>
+                        <a href="https://kylogg88.github.io/NicodingProject1/" alt="Visit Movie Tracker webpage!"  class="btn btn-info">Go to App</a>
                     </div>
                 </div>
             </div>
@@ -130,13 +138,16 @@
             <!-- Card 2 -->
             <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
                 <div class="card">
-                    <img src="images/amazon-prime.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS & HTML</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="images/horison.png" class="card-img-top" alt="Staff meeting">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title">Horiseon marketing website</h5>
+                        <p class="card-text">This project is a website for a marketing company named Horiseon. 
+                            This project was built to become familiar with the use of HTML for structuring a webpage and CSS for 
+                            styling using class attributes, alongside building a stylish website for Horiseon. During the course of 
+                            this project the interlink between the HTML and relative CSS file was understood and how each element works 
+                            to create features on the webpage.
+                           </p>
+                        <a href="https://jessi994.github.io/jess-marketing-website/" class="btn btn-info">Go to App</a>
                     </div>
                 </div>
             </div>
@@ -144,14 +155,17 @@
 
             <!-- Card 3 -->
             <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="card">
-                    <img src="images/furniture1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Javascript</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" >
+                    <img src="images/reademe-generator.png" class="card-img-top" alt="A generated README file">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title">README generator</h5>
+                        <p class="card-text">This project generates a README file in the utils folder of this repo.
+                             This project was built to become familiar with the use of node.js for future work with 
+                             react, alongside building a handy README generator for developers. During the course of 
+                             this project the functionality of the inquirer library was understood and used to recieve 
+                             input from the user and the fs library was used to write the README file.
+                            </p>
+                        <a href="https://github.com/jessi994/Readme-generator.git" class="btn btn-info">Go to repo</a>
                     </div>
                 </div>
             </div>
@@ -161,17 +175,17 @@
     </div>
     <!-- End cards -->
     <!-- Content -->
-    <div class="container-fluid" id="work">
+    <div class="container-fluid" id="skills">
 
         <!-- Row 1 -->
         <div class="row">
             <div class="sideAccent">
             </div>
             <div class="col-3">
-                <img src="../Bootstrap-portfolio/images/digital-marketing-meeting.jpg">
+                <img src="">
             </div>
             <div class="col-8">
-                <h3>My Work</h3>
+                <h3>My skills</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
                 </p>
@@ -185,7 +199,7 @@
     </div>
     <!-- End content -->
     <!-- Footer -->
-    
+
     <div class="container my-5">
 
         <footer class="bg-dark text-center text-white" id="contact">
@@ -193,18 +207,6 @@
             <div class="container p-4 pb-0">
                 <!-- Section: Social media -->
                 <section class="mb-4">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
-                            class="fab fa-facebook-f"></i></a>
-
-                    <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fab fa-twitter"></i></a>
-
-                    <!-- Google -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fab fa-google"></i></a>
-
                     <!-- Instagram -->
                     <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                             class="fab fa-instagram"></i></a>
@@ -223,8 +225,8 @@
 
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                © 2024 Copyright
+                <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
             </div>
             <!-- Copyright -->
         </footer>

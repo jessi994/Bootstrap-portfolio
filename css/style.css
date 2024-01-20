@@ -6,10 +6,21 @@ h4,
 h5,
 h6 {
     font-family: 'Anton', sans-serif;
+
 }
+
+/* body {
+    background-color: rgba(0, 0, 0, 0) !important;
+} */
 
 p {
     font-family: 'Jura', sans-serif;
+}
+
+h1,
+h3 {
+    color: whitesmoke !important;
+    margin: 20px !important;
 }
 
 /*navigation bar*/
@@ -23,42 +34,63 @@ p {
     margin: 0 auto;
 }
 
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
 .Jumbotron {
-    background-image: url("../images/background1.jpeg"); 
+    background-image: url("../images/background1.jpeg");
     background-size: cover;
-   
+
     /* background-position: center; */
 }
 
 .fw-bold {
-    color:bisque;
+    color: bisque;
     margin-bottom: 20px;
 }
 
-.fs-4{
-    color:bisque;
+.fs-4 {
+    color: bisque;
 }
+
 .carousel-inner,
 .carousel-item .carousel-indicators {
 
     /* object-fit:cover; */
     display: flex;
-    object-fit:cover;
+    object-fit: cover;
 
 
 
 
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     justify-content: flex-end !important;
-    width:17% !important;
+    width: 17% !important;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     justify-content: flex-start !important;
-    width:17% !important;
+    width: 17% !important;
 }
-.carouselimage{
-    margin:auto;
+
+.carouselimage {
+    margin: auto;
     height: 400px;
+}
+
+/* .card-img-top{
+    max-height : 50%;
+} */
+
+.card-body {
+    color: whitesmoke !important;
+}
+
+.card{
+    margin: 10px;
+    height: 740px !important;
 }
